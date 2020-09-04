@@ -3,6 +3,7 @@ import SearchBar from './SearchBar'
 import unsplash from '../api/unsplash'
 import Imagelist from './ImageList'
 import Header from './Header'
+import BackgroundPicture from './BackgroundPicture'
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
             <div className='ui container' style={{ marginTop: '10px' }}>
                 <SearchBar onSubmit={onSearchSubmit} />
                 <Imagelist images={images} />
+                <BackgroundPicture />
             </div>
         </div>
     )
