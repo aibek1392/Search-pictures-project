@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import SearchBar from './SearchBar'
 import unsplash from '../api/unsplash'
 import Imagelist from './ImageList'
+import Header from './Header'
 
 const App = () => {
 
@@ -16,9 +17,12 @@ const App = () => {
 
 
     return (
-        <div className='ui container' style={{ marginTop: '10px' }}>
-            <SearchBar onSubmit={onSearchSubmit} />
-            <Imagelist  images={ images } />
+        <div>
+            <div><Header /></div>
+            <div className='ui container' style={{ marginTop: '10px' }}>
+                <SearchBar onSubmit={onSearchSubmit} />
+                <Imagelist images={images} />
+            </div>
         </div>
     )
 }

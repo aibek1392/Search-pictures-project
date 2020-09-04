@@ -1,0 +1,25 @@
+
+  
+  .Header {
+    background-image: radial-gradient(rgb(14, 69, 187),  rgb(1, 6, 17) );
+    position: relative;
+    top: 0px;
+    padding: 45px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    /* font-size: calc(10px + 2vmin); */
+    color: rgb(10, 10, 10);
+      /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25), 0 0 5px 0 rgba(0, 0, 0, 0.25), 0 0 5px 0 rgba(0, 0, 0, 0.25); */
+      /* -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25), 0 0 5px 0 rgba(0, 0, 0, 0.25), 0 0 5px 0 rgba(0, 0, 0, 0.25); */
+      /* -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25), 0 0 5px 0 rgba(0, 0, 0, 0.25), 0 0 5px 0 rgba(0, 0, 0, 0.25); */
+  
+  }
+
+  .Header h1 {
+      margin-left: 38%;
+      color: white;
+  }
+ 
